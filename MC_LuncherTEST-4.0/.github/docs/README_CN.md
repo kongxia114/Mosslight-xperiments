@@ -1,4 +1,4 @@
-[English](./README.md) | **中文**
+[English](.github/README.md) | **中文**
 
 # MC_LuncherTEST 模块化拆分
 
