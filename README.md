@@ -320,7 +320,7 @@ experiments/
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td>Forge / Fabric 共存</td>
+      <td>安装 Forge / Fabric 共存</td>
       <td align="center">v3.0</td>
       <td align="center">✅</td>
     </tr>
