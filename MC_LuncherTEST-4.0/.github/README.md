@@ -1,4 +1,4 @@
-**English** | [中文](../docs/README_CN.md)
+**English** | [中文](./docs/README_CN.md)
 
 # MC_LuncherTEST — Modular Split
 
