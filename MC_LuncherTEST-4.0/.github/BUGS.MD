@@ -1,3 +1,5 @@
+**English** | [中文](./docs/BUGS_CN.md)
+
 # MC_LuncherTEST-3.0 Code Review · Bug List
 
 > This document only **records** issues; no code is modified
