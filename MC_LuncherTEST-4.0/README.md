@@ -1,5 +1,3 @@
-好，这是对应那版精简中文的**英文版**，语气保持一致——不翻译腔，就是正常英文 README 的写法：
-
 ```markdown
 # MC_LuncherTEST — Modular Split
 
