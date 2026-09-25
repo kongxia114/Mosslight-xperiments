@@ -1,3 +1,5 @@
+**English** | [中文](./README_CN.md)
+
 # MC_LuncherTEST — Modular Split
 
 > 📁 You're looking at `experiments/MC_LuncherTEST-4.0/`.
