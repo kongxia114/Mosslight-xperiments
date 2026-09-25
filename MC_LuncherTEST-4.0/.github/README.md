@@ -12,7 +12,7 @@ digging through all of it. So it got split into `core/` + `ui/`, where
 **every chunk is a literal line-range slice of the original**. No rewrites,
 no renames, no opportunistic cleanup.
 
-The bugs that were there are still there — see [BUGS.md](./.github/BUGS.md)
+The bugs that were there are still there — see [BUGS.md](./BUGS.md)
 
 ## Folder layout
 
