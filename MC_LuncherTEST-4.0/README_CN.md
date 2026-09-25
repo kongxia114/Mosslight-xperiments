@@ -1,3 +1,5 @@
+[English](./README.md) | **中文**
+
 # MC_LuncherTEST 模块化拆分
 
 > 📁 你在看的是 `experiments/MC_LuncherTEST-4.0/`。
