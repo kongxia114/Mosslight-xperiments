@@ -1,3 +1,5 @@
+[English](./.github/BUGS.md) | **中文**
+
 # MC_LuncherTEST-3.0 代码审查 · Bug 清单
 
 > 本文只**记录**问题，不修改任何代码（本次任务只做模块化拆分）。
