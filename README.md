@@ -12,7 +12,6 @@ experiments/
 ├── v2.1/
 ├── ...
 ├── v3.0/
-├── assets/                 # 截图
 └── reference/              # 参考文件（PCL2 生成的 .bat）
 ```
 
