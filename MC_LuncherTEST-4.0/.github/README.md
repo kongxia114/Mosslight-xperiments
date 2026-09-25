@@ -88,4 +88,4 @@ Details in `STRUCTURE.md` and `build_report.txt`.
 
 What this code actually does is documented in the main README.
 **Nothing changed functionally** — this is purely a structural split.
-```
+
