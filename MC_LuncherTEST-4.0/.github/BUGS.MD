@@ -1,4 +1,4 @@
-**English** | [中文](./docs/BUGS_CN.md)
+**English** | [中文](./docs/BUGScn.MD)
 
 # MC_LuncherTEST-3.0 Code Review · Bug List
 
