@@ -1,0 +1,71 @@
+拆分目录: D:\DHML-src\experiments\MC_LuncherTEST-3.0
+原始文件: C:\Users\yexia\.dsh\attachments\v1\files\f6\f6f217b8bb4da396946cf73d22cc11159b80535eefad0ddb052e79900f98c5d8\MC_LuncherTEST-3.0.py
+
+================================================================
+1) 每个模块能否独立导入
+  OK   core.config
+  OK   core.util
+  OK   core.manifest
+  OK   core.download
+  OK   core.forge
+  OK   core.fabric
+  OK   core.launch
+  OK   core.workers
+  OK   ui.main_window
+  OK   ui.dialogs.forge_select
+  OK   ui.dialogs.fabric_select
+  OK   main
+  OK   orig_single（原始单文件，作为比对基准）
+
+================================================================
+2) main.py 顶层符号集合 vs 原单文件
+  原始顶层符号 55 个；main.py 缺失 0 个
+  PASS
+
+================================================================
+3) 函数/类比对（签名 / 类方法集合 / 源码文本逐字）
+  WARN 无法取源码 QApplication: source code not available
+  WARN 无法取源码 QCheckBox: source code not available
+  WARN 无法取源码 QComboBox: source code not available
+  WARN 无法取源码 QDialog: source code not available
+  WARN 无法取源码 QDialogButtonBox: source code not available
+  WARN 无法取源码 QFont: source code not available
+  WARN 无法取源码 QFormLayout: source code not available
+  WARN 无法取源码 QGroupBox: source code not available
+  WARN 无法取源码 QHBoxLayout: source code not available
+  WARN 无法取源码 QLabel: source code not available
+  WARN 无法取源码 QLineEdit: source code not available
+  WARN 无法取源码 QMainWindow: source code not available
+  WARN 无法取源码 QMessageBox: source code not available
+  WARN 无法取源码 QObject: source code not available
+  WARN 无法取源码 QPushButton: source code not available
+  WARN 无法取源码 QTextEdit: source code not available
+  WARN 无法取源码 QVBoxLayout: source code not available
+  WARN 无法取源码 QWidget: source code not available
+  WARN 无法取源码 Qt: source code not available
+  WARN 无法取源码 datetime: source code not available
+  WARN 无法取源码 pyqtSignal: source code not available
+  签名一致 41 个 / 签名不同 0 个 / 源码不同 0 个 / 缺失 0 个
+  PASS
+
+================================================================
+4) 常量值比对
+  OK   DEFAULT_MC_DIR = 'D:\\DHML\\.minecraft'
+  OK   DEFAULT_JAVA = 'C:\\Users\\yexia\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-delta\\bin\\java.exe'
+  OK   DEFAULT_USERNAME = 'BaBaLe'
+  OK   DEFAULT_MEMORY = 8192
+  OK   LOG_NOISE_PATTERNS（28 条）
+
+================================================================
+5) MC_LuncherTEST-3.0.py 兼容外壳
+  加载 OK；相对原文件缺失符号: 0
+  PASS
+
+================================================================
+6) 入口 main() 可用性
+  main(): 存在，签名 ()
+  MainWindow: 存在
+  QApplication: 存在
+
+================================================================
+验证结论: 全部通过

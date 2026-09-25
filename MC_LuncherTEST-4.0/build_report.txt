@@ -1,0 +1,98 @@
+源文件: C:\Users\yexia\.dsh\attachments\v1\files\f6\f6f217b8bb4da396946cf73d22cc11159b80535eefad0ddb052e79900f98c5d8\MC_LuncherTEST-3.0.py
+源 SHA256: f6f217b8bb4da396946cf73d22cc11159b80535eefad0ddb052e79900f98c5d8
+源行数: 1754
+输出目录: D:\DHML-src\experiments\MC_LuncherTEST-3.0
+清空旧 .py 文件: 16 个
+
+  写入 core/__init__.py (28 行)
+  写入 core/config.py (56 行)
+  写入 core/util.py (97 行)
+  写入 core/manifest.py (46 行)
+  写入 core/download.py (230 行)
+  写入 core/forge.py (110 行)
+  写入 core/fabric.py (159 行)
+  写入 core/launch.py (303 行)
+  写入 core/workers.py (137 行)
+  写入 ui/__init__.py (22 行)
+  写入 ui/dialogs/__init__.py (23 行)
+  写入 ui/dialogs/forge_select.py (76 行)
+  写入 ui/dialogs/fabric_select.py (125 行)
+  写入 ui/main_window.py (637 行)
+  写入 main.py (50 行)
+  写入 MC_LuncherTEST-3.0.py (23 行)
+
+================================================================
+校验 1：顶层代码节点并集是否与原始文件一致（顺序+内容）
+  PASS —— 23 个顶层节点（常量/类/函数/if __main__）逐字对应，无增无减无改写
+
+校验 2：原始 import 是否被完整搬运（并集比对）
+  PASS —— 原始 33 条 import 绑定全部出现在新代码中
+  [info] 新代码额外引入 42 条绑定（仅可能来自核心模块间的依赖）:
+    ('from', '', 'config', None)
+    ('from', '', 'download', None)
+    ('from', '', 'fabric', None)
+    ('from', '', 'fabric_select', None)
+    ('from', '', 'forge', None)
+    ('from', '', 'forge_select', None)
+    ('from', '', 'launch', None)
+    ('from', '', 'main_window', None)
+    ('from', '', 'manifest', None)
+    ('from', '', 'util', None)
+    ('from', 'core.config', '*', None)
+    ('from', 'core.config', 'DEFAULT_JAVA', None)
+    ('from', 'core.config', 'DEFAULT_MC_DIR', None)
+    ('from', 'core.config', 'DEFAULT_MEMORY', None)
+    ('from', 'core.config', 'DEFAULT_USERNAME', None)
+    ('from', 'core.config', 'LOG_NOISE_PATTERNS', None)
+    ('from', 'core.download', '*', None)
+    ('from', 'core.download', 'Downloader', None)
+    ('from', 'core.fabric', '*', None)
+    ('from', 'core.fabric', 'FabricInstaller', None)
+    ('from', 'core.forge', '*', None)
+    ('from', 'core.forge', 'ForgeDownloader', None)
+    ('from', 'core.launch', '*', None)
+    ('from', 'core.launch', 'Worker', None)
+    ('from', 'core.manifest', '*', None)
+    ('from', 'core.manifest', 'ManifestFetcher', None)
+    ('from', 'core.util', '*', None)
+    ('from', 'core.util', 'get_natives_key', None)
+    ('from', 'core.util', 'is_noise', None)
+    ('from', 'core.util', 'make_log_fn', None)
+    ('from', 'core.util', 'maven_to_path', None)
+    ('from', 'core.util', 'rules_allow', None)
+    ('from', 'core.workers', '*', None)
+    ('from', 'core.workers', 'DownloadWorker', None)
+    ('from', 'core.workers', 'FabricInstallWorker', None)
+    ('from', 'core.workers', 'ForgeInstallWorker', None)
+    ('from', 'ui.dialogs.fabric_select', '*', None)
+    ('from', 'ui.dialogs.fabric_select', 'FabricSelectDialog', None)
+    ('from', 'ui.dialogs.forge_select', '*', None)
+    ('from', 'ui.dialogs.forge_select', 'ForgeSelectDialog', None)
+    ('from', 'ui.main_window', '*', None)
+    ('from', 'ui.main_window', 'MainWindow', None)
+
+校验 3：每模块全局名字绑定检查（symtable，防漏搬 import 造成 NameError）
+  PASS core/__init__.py（引用 0 个全局名，全部有来源）
+  PASS core/config.py（引用 0 个全局名，全部有来源）
+  PASS core/download.py（引用 18 个全局名，全部有来源）
+  PASS core/fabric.py（引用 11 个全局名，全部有来源）
+  PASS core/forge.py（引用 10 个全局名，全部有来源）
+  PASS core/launch.py（引用 24 个全局名，全部有来源）
+  PASS core/manifest.py（引用 7 个全局名，全部有来源）
+  PASS core/util.py（引用 6 个全局名，全部有来源）
+  PASS core/workers.py（引用 12 个全局名，全部有来源）
+  PASS main.py（引用 5 个全局名，全部有来源）
+  PASS ui/__init__.py（引用 0 个全局名，全部有来源）
+  PASS ui/dialogs/__init__.py（引用 0 个全局名，全部有来源）
+  PASS ui/dialogs/fabric_select.py（引用 9 个全局名，全部有来源）
+  PASS ui/dialogs/forge_select.py（引用 8 个全局名，全部有来源）
+  PASS ui/main_window.py（引用 40 个全局名，全部有来源）
+
+校验 4：函数/类签名逐一对齐
+  PASS —— 17 个类/函数的参数与基类完全一致
+
+校验 5：类/函数正文逐行文本比对（最强校验，确认零改写）
+  PASS —— 17 个类/函数正文与原始文件逐行相同（含缩进与注释）
+
+================================================================
+总校验结果: 全部 PASS
