@@ -1,13 +1,13 @@
 # MC 启动器：账号验证实验
 
-一个独立小项目，专门试“正版验证”到底怎么做。界面是空壳，重点在验证那套东西。
+这是一个独立小项目，专门试“正版验证”到底怎么做。界面是空壳，重点在验证那套东西。
 
 > 这个目录只从主项目 `D:\DHML-src` 复制样式和头像模块，从不改动主项目。
 
-## 怎么跑
+## 怎么运行？
 
 ```powershell
-cd "D:\DHML-src\experiments\Genuine verification"
+cd "D:\experiments\Genuine verification"
 pip install -r requirements.txt
 python main.py
 ```
