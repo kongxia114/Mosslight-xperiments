@@ -1,3 +1,4 @@
+**🇬🇧 English** | [🇨🇳 中文](READMEcn.md)
 # MC Launcher: Account Verification Experiments
 
 A small standalone project for figuring out how "genuine account verification" should actually work. The UI is just a shell — the point is the verification layer.
