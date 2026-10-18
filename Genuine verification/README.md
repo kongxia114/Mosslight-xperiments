@@ -79,7 +79,7 @@ code 拿不到。
 
 ### 微软登录怎么开通（这就是你要的那份步骤）
 
-> 我按 [Minecraft Wiki](https://minecraft.wiki/w/Microsoft_authentication) 和
+> 让我们看 [Minecraft Wiki](https://minecraft.wiki/w/Microsoft_authentication) 和
 > [Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/5768276/how-to-get-xboxlive-signin-permission-for-azure-ap)
 > 整理的，**两个硬门槛都在第 4 步**。
 
